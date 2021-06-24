@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D390FD2268522CC007CDE44 /* Education.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D390FD0268522CC007CDE44 /* Education.framework */; };
+		3D390FD3268522CC007CDE44 /* Education.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D390FD0268522CC007CDE44 /* Education.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3D390FD4268522CC007CDE44 /* Medical.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D390FD1268522CC007CDE44 /* Medical.framework */; };
+		3D390FD5268522CC007CDE44 /* Medical.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D390FD1268522CC007CDE44 /* Medical.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3D8D42D82685172F0024B533 /* SwiftGen_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8D42D72685172F0024B533 /* SwiftGen_ExampleTests.swift */; };
 		3D8D42E32685172F0024B533 /* SwiftGen_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8D42E22685172F0024B533 /* SwiftGen_ExampleUITests.swift */; };
 		3D8D4307268517CA0024B533 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D8D42FA268517CA0024B533 /* LaunchScreen.storyboard */; };
@@ -40,7 +44,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3DD4CDDF268521A70057E587 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3D390FD5268522CC007CDE44 /* Medical.framework in Embed Frameworks */,
+				3D390FD3268522CC007CDE44 /* Education.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		3D390FD0268522CC007CDE44 /* Education.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Education.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D390FD1268522CC007CDE44 /* Medical.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Medical.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D8D42BD268517180024B533 /* SwiftGen-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftGen-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D8D42D32685172F0024B533 /* SwiftGen-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftGen-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D8D42D72685172F0024B533 /* SwiftGen_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGen_ExampleTests.swift; sourceTree = "<group>"; };
@@ -70,7 +91,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D390FD4268522CC007CDE44 /* Medical.framework in Frameworks */,
 				CCA142CC8CCC55A29FF83B67 /* Pods_SwiftGen_Example.framework in Frameworks */,
+				3D390FD2268522CC007CDE44 /* Education.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +224,8 @@
 		5DCA3F5D653ECA1903C2B13C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3D390FD0268522CC007CDE44 /* Education.framework */,
+				3D390FD1268522CC007CDE44 /* Medical.framework */,
 				BBABD37BE332351F279D8C24 /* Pods_SwiftGen_Example.framework */,
 			);
 			name = Frameworks;
@@ -226,6 +251,7 @@
 				3D8D42B9268517180024B533 /* Sources */,
 				3D8D42BA268517180024B533 /* Frameworks */,
 				3D8D42BB268517180024B533 /* Resources */,
+				3DD4CDDF268521A70057E587 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -492,7 +518,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -547,7 +573,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

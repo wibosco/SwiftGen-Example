@@ -15,14 +15,25 @@
 			dependencies = (
 			);
 			name = SwiftGen;
-			productName = SwiftGen;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		2241A05D0357D0C5DE3452977062B8DF /* Pods-Education-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A36AC577ADF4F542FEA185F9C6CCF61A /* Pods-Education-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B5ED3924C71BAD5350E3ABE2F3F4D34 /* Pods-Education-EducationTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFAE207B4ACBE5FF5A168AD35D911B4 /* Pods-Education-EducationTests-dummy.m */; };
+		300EC95F7810A74E522C55DCDEED0E97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4CFE62BD3822933BE15C1DA569AEE7EC /* Pods-Medical-MedicalTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F922CB3FB932A08C5479F55964DD8564 /* Pods-Medical-MedicalTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EB4AFEC7861C9BC1A8D37DBA9C039DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8764C70011BEAD05C69836983AA7440D /* Pods-Education-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E753F1754654B9444FB620D68B0DDA52 /* Pods-Education-dummy.m */; };
+		88C2BEB249A16BCEB56142980F01EF38 /* Pods-Medical-MedicalTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD806AD4F4779D2A8CC0496B41E4C5D /* Pods-Medical-MedicalTests-dummy.m */; };
+		9728D1F0A16EB26CE3A2857A94D8A3A0 /* Pods-Education-EducationTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3A91FF8E1B75BB75D5C9100F65F177D /* Pods-Education-EducationTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A963230839F5D78352F9CCC821352491 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E7FCDB173581EEED2F11B44CB98E6F0F /* Pods-SwiftGen-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01970E09FAA0C0EA4C6AE01B803C55EC /* Pods-SwiftGen-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF184056D71ECB2AA45AA238046A54F0 /* Pods-SwiftGen-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E36D8173A2F79D47E1596623CA874D /* Pods-SwiftGen-Example-dummy.m */; };
+		B5059ED70521D790E0E3AC233CF65BA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C6404EC4871F0C6668F6AAA59A2D57A8 /* Pods-Medical-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A36E19BF738B3D48F52D2204166E9 /* Pods-Medical-dummy.m */; };
+		C7C558DDE4311BE4BBC537C28ECF2EF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DC61C71C35F45C4B3200085832F47FB1 /* Pods-Medical-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A35F95883212E605A2A4FE912F40A214 /* Pods-Medical-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7FCDB173581EEED2F11B44CB98E6F0F /* Pods-SwiftGen-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E89E40E9BCDE3821588068AD716E33E /* Pods-SwiftGen-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF184056D71ECB2AA45AA238046A54F0 /* Pods-SwiftGen-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E322FA0DCD32428DAAAE5468DB084D4 /* Pods-SwiftGen-Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,25 +44,105 @@
 			remoteGlobalIDString = 1E798429DCFA7906F6625CCFC1088744;
 			remoteInfo = SwiftGen;
 		};
+		41A263438B8633DD920B63A4469297B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E798429DCFA7906F6625CCFC1088744;
+			remoteInfo = SwiftGen;
+		};
+		A0C194BC96D06FFCCB9858D3D8E9BFF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E798429DCFA7906F6625CCFC1088744;
+			remoteInfo = SwiftGen;
+		};
+		B42987A6C48AC8B1C1A5FDA9C2EF9AB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E798429DCFA7906F6625CCFC1088744;
+			remoteInfo = SwiftGen;
+		};
+		BE377BB4AC089DD86FFEEBC7B594B794 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E798429DCFA7906F6625CCFC1088744;
+			remoteInfo = SwiftGen;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01970E09FAA0C0EA4C6AE01B803C55EC /* Pods-SwiftGen-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftGen-Example-umbrella.h"; sourceTree = "<group>"; };
-		1629C1D229C506B10526A9FC5792A5C0 /* Pods-SwiftGen-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftGen-Example-Info.plist"; sourceTree = "<group>"; };
-		2E33282DFCC543987B94C624E188FCFB /* Pods-SwiftGen-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftGen-Example.release.xcconfig"; sourceTree = "<group>"; };
-		326F8107EE51910C1365E288347E9638 /* Pods-SwiftGen-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftGen-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3600F732145EF2890EB84ECCE0E9B4EE /* Pods-SwiftGen-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftGen-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		00C3DBBA51121F705DDFEB8FA1F9340A /* Pods-Education-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Education-Info.plist"; sourceTree = "<group>"; };
+		1E89E40E9BCDE3821588068AD716E33E /* Pods-SwiftGen-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftGen-Example-umbrella.h"; sourceTree = "<group>"; };
+		1F9BC7F110BF4C9AE29FB7237C4923EF /* Pods-Education-EducationTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Education-EducationTests-Info.plist"; sourceTree = "<group>"; };
+		232107164BA8AFDF71395DFE7822189A /* Pods_Medical_MedicalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Medical_MedicalTests.framework; path = "Pods-Medical-MedicalTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		290510D3C80FA795D5DF132A505A7776 /* Pods-Medical-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Medical-Info.plist"; sourceTree = "<group>"; };
+		2C7AB747B188FF4204650C7AF0E5375F /* Pods-Medical-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Medical-acknowledgements.plist"; sourceTree = "<group>"; };
+		2CC8329EC90FAF89269354889E051B82 /* Pods_Education.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Education.framework; path = "Pods-Education.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32E119C96125E6777D11D469EE9454FC /* Pods-SwiftGen-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftGen-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3B6BBBCFFB7F969D49D9518F8C44CABB /* Pods-Education.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Education.release.xcconfig"; sourceTree = "<group>"; };
+		4E322FA0DCD32428DAAAE5468DB084D4 /* Pods-SwiftGen-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftGen-Example-dummy.m"; sourceTree = "<group>"; };
+		4EFFA8157B5003972799FD699D156C9E /* Pods-Education-EducationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Education-EducationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		53568FCD59EFE15AD2D320DB025A74F0 /* Pods-Medical.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Medical.debug.xcconfig"; sourceTree = "<group>"; };
+		55668254BBF863BA6602EAD561D1F2D6 /* Pods-Medical-MedicalTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Medical-MedicalTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		58047339C210853C9B497A993D2ED79D /* Pods-Education-EducationTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Education-EducationTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5CD806AD4F4779D2A8CC0496B41E4C5D /* Pods-Medical-MedicalTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Medical-MedicalTests-dummy.m"; sourceTree = "<group>"; };
+		5E5DDD10406457CCD7ADEC4F2D5B2401 /* Pods-Education.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Education.debug.xcconfig"; sourceTree = "<group>"; };
+		6012B6707003E22C83E01E47F86738F8 /* Pods-Medical-MedicalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Medical-MedicalTests.release.xcconfig"; sourceTree = "<group>"; };
+		619285583B47FA4C5B3EA53485BE2E5B /* Pods-SwiftGen-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftGen-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		640151D16963180E3E1161F1A0FB45CD /* Pods-SwiftGen-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftGen-Example.modulemap"; sourceTree = "<group>"; };
+		69C50A0C1B288BAFC5CFCDDF844B4196 /* Pods_Medical.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Medical.framework; path = "Pods-Medical.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A8E36D8173A2F79D47E1596623CA874D /* Pods-SwiftGen-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftGen-Example-dummy.m"; sourceTree = "<group>"; };
+		78F65F5654AF1E1896E95C3D2DB7780F /* Pods-Medical-MedicalTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Medical-MedicalTests.modulemap"; sourceTree = "<group>"; };
+		7F4326FBB5D12341D124721FAFD43041 /* Pods-Education-EducationTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Education-EducationTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8625D91CE5A5EE933F75F4C8CF68CF6C /* Pods-Medical-MedicalTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Medical-MedicalTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		87188C5ED57526C2C2F86A544CA82990 /* Pods-Medical-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Medical-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8DFDA47837BE82B657276B78DB5C9A4F /* Pods-Education-EducationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Education-EducationTests.release.xcconfig"; sourceTree = "<group>"; };
+		93A7603D1A0FC3A8BB0BD0BC6413EA3F /* Pods-SwiftGen-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftGen-Example-Info.plist"; sourceTree = "<group>"; };
+		97683C23B248048EEB8CB72BC8182FDF /* Pods-SwiftGen-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftGen-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A35F95883212E605A2A4FE912F40A214 /* Pods-Medical-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Medical-umbrella.h"; sourceTree = "<group>"; };
+		A36AC577ADF4F542FEA185F9C6CCF61A /* Pods-Education-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Education-umbrella.h"; sourceTree = "<group>"; };
+		A722597532DAAB799B7C42E68FE8937F /* Pods-Medical.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Medical.modulemap"; sourceTree = "<group>"; };
+		AC942151D1852A1CEEDEAF90730A693D /* Pods-Medical-MedicalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Medical-MedicalTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B4263489E673801EC37C1F15D4E531D8 /* SwiftGen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftGen.release.xcconfig; sourceTree = "<group>"; };
-		B6E024230C9C0F6078C0FFBFD441A616 /* Pods-SwiftGen-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftGen-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D17A5C7E78ED6AF0DB08064B1619F73E /* Pods-SwiftGen-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftGen-Example.modulemap"; sourceTree = "<group>"; };
-		F3FD793149FAE28053B018C7425EFD3D /* Pods_SwiftGen_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftGen_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D391D7885B9B51300C2C138917F386 /* Pods-Education.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Education.modulemap"; sourceTree = "<group>"; };
+		C893F37CC505E4F2F92AFD1D1719BFED /* Pods-Education-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Education-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CBDC8FB14FE792D829D10A0BA14B80BB /* Pods-Education-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Education-acknowledgements.plist"; sourceTree = "<group>"; };
+		CFAE3C191E720CB17765F828A27B809B /* Pods-Medical.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Medical.release.xcconfig"; sourceTree = "<group>"; };
+		D3A91FF8E1B75BB75D5C9100F65F177D /* Pods-Education-EducationTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Education-EducationTests-umbrella.h"; sourceTree = "<group>"; };
+		D4C2EE45B5DA9B99A06F55FE0351B6BB /* Pods-Education-EducationTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Education-EducationTests.modulemap"; sourceTree = "<group>"; };
+		D73A36E19BF738B3D48F52D2204166E9 /* Pods-Medical-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Medical-dummy.m"; sourceTree = "<group>"; };
+		E3B867E6D7D00BCCE77B445498926DE6 /* Pods-Medical-MedicalTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Medical-MedicalTests-Info.plist"; sourceTree = "<group>"; };
+		E414C89942B377218B7C5E1F3CBE689A /* Pods_Education_EducationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Education_EducationTests.framework; path = "Pods-Education-EducationTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E753F1754654B9444FB620D68B0DDA52 /* Pods-Education-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Education-dummy.m"; sourceTree = "<group>"; };
+		F19262F086A83B37799E723068E15A61 /* Pods-SwiftGen-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftGen-Example.release.xcconfig"; sourceTree = "<group>"; };
+		F3FD793149FAE28053B018C7425EFD3D /* Pods_SwiftGen_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftGen_Example.framework; path = "Pods-SwiftGen-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F922CB3FB932A08C5479F55964DD8564 /* Pods-Medical-MedicalTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Medical-MedicalTests-umbrella.h"; sourceTree = "<group>"; };
+		FAFAE207B4ACBE5FF5A168AD35D911B4 /* Pods-Education-EducationTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Education-EducationTests-dummy.m"; sourceTree = "<group>"; };
 		FD691AE7128F940D3B179941FCEC2F54 /* SwiftGen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftGen.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0221FA2A1F9DCFB13BA84FE4C4CCFF57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5059ED70521D790E0E3AC233CF65BA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147F70F30E9CC96F37B13C35B35B1372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300EC95F7810A74E522C55DCDEED0E97 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2A44A77B1445F7295BFFE76DAAB9E3C9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -60,25 +151,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6EB517A21AE5D8214EB6EA1AA152F835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB4AFEC7861C9BC1A8D37DBA9C039DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6119D567871214C8637FB94AF56CB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C558DDE4311BE4BBC537C28ECF2EF7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		050A0B8C8D789BD5D131C581168A8663 /* Pods-SwiftGen-Example */ = {
-			isa = PBXGroup;
-			children = (
-				D17A5C7E78ED6AF0DB08064B1619F73E /* Pods-SwiftGen-Example.modulemap */,
-				B6E024230C9C0F6078C0FFBFD441A616 /* Pods-SwiftGen-Example-acknowledgements.markdown */,
-				3600F732145EF2890EB84ECCE0E9B4EE /* Pods-SwiftGen-Example-acknowledgements.plist */,
-				A8E36D8173A2F79D47E1596623CA874D /* Pods-SwiftGen-Example-dummy.m */,
-				1629C1D229C506B10526A9FC5792A5C0 /* Pods-SwiftGen-Example-Info.plist */,
-				01970E09FAA0C0EA4C6AE01B803C55EC /* Pods-SwiftGen-Example-umbrella.h */,
-				326F8107EE51910C1365E288347E9638 /* Pods-SwiftGen-Example.debug.xcconfig */,
-				2E33282DFCC543987B94C624E188FCFB /* Pods-SwiftGen-Example.release.xcconfig */,
-			);
-			name = "Pods-SwiftGen-Example";
-			path = "Target Support Files/Pods-SwiftGen-Example";
-			sourceTree = "<group>";
-		};
 		08DF4A29620F30ECCD85AE71F22FD52C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -87,12 +178,48 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		4A8B9E368D699D66E96B4B9C43006075 /* Products */ = {
+		13F93C61AE2C2EAD722F560EB87EC8EB /* Pods-Education */ = {
 			isa = PBXGroup;
 			children = (
-				F3FD793149FAE28053B018C7425EFD3D /* Pods_SwiftGen_Example.framework */,
+				C5D391D7885B9B51300C2C138917F386 /* Pods-Education.modulemap */,
+				C893F37CC505E4F2F92AFD1D1719BFED /* Pods-Education-acknowledgements.markdown */,
+				CBDC8FB14FE792D829D10A0BA14B80BB /* Pods-Education-acknowledgements.plist */,
+				E753F1754654B9444FB620D68B0DDA52 /* Pods-Education-dummy.m */,
+				00C3DBBA51121F705DDFEB8FA1F9340A /* Pods-Education-Info.plist */,
+				A36AC577ADF4F542FEA185F9C6CCF61A /* Pods-Education-umbrella.h */,
+				5E5DDD10406457CCD7ADEC4F2D5B2401 /* Pods-Education.debug.xcconfig */,
+				3B6BBBCFFB7F969D49D9518F8C44CABB /* Pods-Education.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-Education";
+			path = "Target Support Files/Pods-Education";
+			sourceTree = "<group>";
+		};
+		2B6D7F09BADA8A31F42808631012BD82 /* Pods-SwiftGen-Example */ = {
+			isa = PBXGroup;
+			children = (
+				640151D16963180E3E1161F1A0FB45CD /* Pods-SwiftGen-Example.modulemap */,
+				97683C23B248048EEB8CB72BC8182FDF /* Pods-SwiftGen-Example-acknowledgements.markdown */,
+				619285583B47FA4C5B3EA53485BE2E5B /* Pods-SwiftGen-Example-acknowledgements.plist */,
+				4E322FA0DCD32428DAAAE5468DB084D4 /* Pods-SwiftGen-Example-dummy.m */,
+				93A7603D1A0FC3A8BB0BD0BC6413EA3F /* Pods-SwiftGen-Example-Info.plist */,
+				1E89E40E9BCDE3821588068AD716E33E /* Pods-SwiftGen-Example-umbrella.h */,
+				32E119C96125E6777D11D469EE9454FC /* Pods-SwiftGen-Example.debug.xcconfig */,
+				F19262F086A83B37799E723068E15A61 /* Pods-SwiftGen-Example.release.xcconfig */,
+			);
+			name = "Pods-SwiftGen-Example";
+			path = "Target Support Files/Pods-SwiftGen-Example";
+			sourceTree = "<group>";
+		};
+		51C791AF171535A6D1FFBF2E26A57E0B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				13F93C61AE2C2EAD722F560EB87EC8EB /* Pods-Education */,
+				66484B0415C09EA86AC44D67009097C4 /* Pods-Education-EducationTests */,
+				C53C2ED1F0AF50952CA00D7354242D2A /* Pods-Medical */,
+				82C9F487C7F04EF0B6D55F8CD574E738 /* Pods-Medical-MedicalTests */,
+				2B6D7F09BADA8A31F42808631012BD82 /* Pods-SwiftGen-Example */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -103,12 +230,57 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		66484B0415C09EA86AC44D67009097C4 /* Pods-Education-EducationTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4C2EE45B5DA9B99A06F55FE0351B6BB /* Pods-Education-EducationTests.modulemap */,
+				58047339C210853C9B497A993D2ED79D /* Pods-Education-EducationTests-acknowledgements.markdown */,
+				7F4326FBB5D12341D124721FAFD43041 /* Pods-Education-EducationTests-acknowledgements.plist */,
+				FAFAE207B4ACBE5FF5A168AD35D911B4 /* Pods-Education-EducationTests-dummy.m */,
+				1F9BC7F110BF4C9AE29FB7237C4923EF /* Pods-Education-EducationTests-Info.plist */,
+				D3A91FF8E1B75BB75D5C9100F65F177D /* Pods-Education-EducationTests-umbrella.h */,
+				4EFFA8157B5003972799FD699D156C9E /* Pods-Education-EducationTests.debug.xcconfig */,
+				8DFDA47837BE82B657276B78DB5C9A4F /* Pods-Education-EducationTests.release.xcconfig */,
+			);
+			name = "Pods-Education-EducationTests";
+			path = "Target Support Files/Pods-Education-EducationTests";
+			sourceTree = "<group>";
+		};
+		82C9F487C7F04EF0B6D55F8CD574E738 /* Pods-Medical-MedicalTests */ = {
+			isa = PBXGroup;
+			children = (
+				78F65F5654AF1E1896E95C3D2DB7780F /* Pods-Medical-MedicalTests.modulemap */,
+				8625D91CE5A5EE933F75F4C8CF68CF6C /* Pods-Medical-MedicalTests-acknowledgements.markdown */,
+				55668254BBF863BA6602EAD561D1F2D6 /* Pods-Medical-MedicalTests-acknowledgements.plist */,
+				5CD806AD4F4779D2A8CC0496B41E4C5D /* Pods-Medical-MedicalTests-dummy.m */,
+				E3B867E6D7D00BCCE77B445498926DE6 /* Pods-Medical-MedicalTests-Info.plist */,
+				F922CB3FB932A08C5479F55964DD8564 /* Pods-Medical-MedicalTests-umbrella.h */,
+				AC942151D1852A1CEEDEAF90730A693D /* Pods-Medical-MedicalTests.debug.xcconfig */,
+				6012B6707003E22C83E01E47F86738F8 /* Pods-Medical-MedicalTests.release.xcconfig */,
+			);
+			name = "Pods-Medical-MedicalTests";
+			path = "Target Support Files/Pods-Medical-MedicalTests";
+			sourceTree = "<group>";
+		};
 		878C176E7A3E3DF8BAB24F0858DEDDDD /* SwiftGen */ = {
 			isa = PBXGroup;
 			children = (
 				AB4F699EB2CE4C63CBA1FEFDD0861DAA /* Support Files */,
 			);
+			name = SwiftGen;
 			path = SwiftGen;
+			sourceTree = "<group>";
+		};
+		895451D75E9D5035F4D8E0D39A5E9C6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CC8329EC90FAF89269354889E051B82 /* Pods_Education.framework */,
+				E414C89942B377218B7C5E1F3CBE689A /* Pods_Education_EducationTests.framework */,
+				69C50A0C1B288BAFC5CFCDDF844B4196 /* Pods_Medical.framework */,
+				232107164BA8AFDF71395DFE7822189A /* Pods_Medical_MedicalTests.framework */,
+				F3FD793149FAE28053B018C7425EFD3D /* Pods_SwiftGen_Example.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		AB4F699EB2CE4C63CBA1FEFDD0861DAA /* Support Files */ = {
@@ -121,14 +293,30 @@
 			path = "../Target Support Files/SwiftGen";
 			sourceTree = "<group>";
 		};
+		C53C2ED1F0AF50952CA00D7354242D2A /* Pods-Medical */ = {
+			isa = PBXGroup;
+			children = (
+				A722597532DAAB799B7C42E68FE8937F /* Pods-Medical.modulemap */,
+				87188C5ED57526C2C2F86A544CA82990 /* Pods-Medical-acknowledgements.markdown */,
+				2C7AB747B188FF4204650C7AF0E5375F /* Pods-Medical-acknowledgements.plist */,
+				D73A36E19BF738B3D48F52D2204166E9 /* Pods-Medical-dummy.m */,
+				290510D3C80FA795D5DF132A505A7776 /* Pods-Medical-Info.plist */,
+				A35F95883212E605A2A4FE912F40A214 /* Pods-Medical-umbrella.h */,
+				53568FCD59EFE15AD2D320DB025A74F0 /* Pods-Medical.debug.xcconfig */,
+				CFAE3C191E720CB17765F828A27B809B /* Pods-Medical.release.xcconfig */,
+			);
+			name = "Pods-Medical";
+			path = "Target Support Files/Pods-Medical";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				08DF4A29620F30ECCD85AE71F22FD52C /* Pods */,
-				4A8B9E368D699D66E96B4B9C43006075 /* Products */,
-				ED9841875B58485DC2ACF831A2CB664B /* Targets Support Files */,
+				895451D75E9D5035F4D8E0D39A5E9C6B /* Products */,
+				51C791AF171535A6D1FFBF2E26A57E0B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,17 +328,41 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		ED9841875B58485DC2ACF831A2CB664B /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				050A0B8C8D789BD5D131C581168A8663 /* Pods-SwiftGen-Example */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		09F71B67133276DCB8845AD75B790CA8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2241A05D0357D0C5DE3452977062B8DF /* Pods-Education-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D5056F42053B9968655B86950B4C583 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC61C71C35F45C4B3200085832F47FB1 /* Pods-Medical-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F0BA8D60217AC0E988010811611BE9F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CFE62BD3822933BE15C1DA569AEE7EC /* Pods-Medical-MedicalTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581D4BE413BE3069617D9BDF384D2F4A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9728D1F0A16EB26CE3A2857A94D8A3A0 /* Pods-Education-EducationTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CE7C13D98CEAB1F6B814A3E587459163 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -162,6 +374,44 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		308342EF6AD8BAD18F9781A4929C4201 /* Pods-Medical */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03B573C2DD6EB70273BA1DA809901492 /* Build configuration list for PBXNativeTarget "Pods-Medical" */;
+			buildPhases = (
+				1D5056F42053B9968655B86950B4C583 /* Headers */,
+				5566DDD28BD4603BC93443F633C069D3 /* Sources */,
+				147F70F30E9CC96F37B13C35B35B1372 /* Frameworks */,
+				A47E603D98C1EDFA266050FBCA424175 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6E67E83741F99CCC172A9AC5644EA28 /* PBXTargetDependency */,
+			);
+			name = "Pods-Medical";
+			productName = "Pods-Medical";
+			productReference = 69C50A0C1B288BAFC5CFCDDF844B4196 /* Pods_Medical.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		677D3382FC62AB7419126938DD81A0E0 /* Pods-Education-EducationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 538748AC666B5CEFFD61D342A33D04FA /* Build configuration list for PBXNativeTarget "Pods-Education-EducationTests" */;
+			buildPhases = (
+				581D4BE413BE3069617D9BDF384D2F4A /* Headers */,
+				7E382D34851D42E86BAA4E709A1DB478 /* Sources */,
+				6EB517A21AE5D8214EB6EA1AA152F835 /* Frameworks */,
+				D6A13AC2F4DD19A3A5EBD422DC75895F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6875B58C793EA96E4E5E8BF40A5EC2B /* PBXTargetDependency */,
+			);
+			name = "Pods-Education-EducationTests";
+			productName = "Pods-Education-EducationTests";
+			productReference = E414C89942B377218B7C5E1F3CBE689A /* Pods_Education_EducationTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		9F55DB9A55BFC49263518F9108077E37 /* Pods-SwiftGen-Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A02174BF4B03EC4F716754062E53B014 /* Build configuration list for PBXNativeTarget "Pods-SwiftGen-Example" */;
@@ -179,6 +429,44 @@
 			name = "Pods-SwiftGen-Example";
 			productName = "Pods-SwiftGen-Example";
 			productReference = F3FD793149FAE28053B018C7425EFD3D /* Pods_SwiftGen_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D2A4ADBF04FD650F0BCEA8AB04E43B80 /* Pods-Education */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D647880B4652645BCE46628BF31223CF /* Build configuration list for PBXNativeTarget "Pods-Education" */;
+			buildPhases = (
+				09F71B67133276DCB8845AD75B790CA8 /* Headers */,
+				15C3A9457057942A6E134B865104D71F /* Sources */,
+				EE6119D567871214C8637FB94AF56CB5 /* Frameworks */,
+				46E71C5E59C0D0C247F8879C0355573B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64D4BB56E9E80A1A767954E5A1E1AFE7 /* PBXTargetDependency */,
+			);
+			name = "Pods-Education";
+			productName = "Pods-Education";
+			productReference = 2CC8329EC90FAF89269354889E051B82 /* Pods_Education.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F58865CF96C8E2FB5D763344909DFBD0 /* Pods-Medical-MedicalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED3E7EA03822E8A4F7CEF1BB9EF202A8 /* Build configuration list for PBXNativeTarget "Pods-Medical-MedicalTests" */;
+			buildPhases = (
+				2F0BA8D60217AC0E988010811611BE9F /* Headers */,
+				E5A3261D88BC377DC84BA87C5405ECE8 /* Sources */,
+				0221FA2A1F9DCFB13BA84FE4C4CCFF57 /* Frameworks */,
+				AD8C631A83D5BEB16BA794C1E6320BF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FD4B3CFBEB50A89557C1161B515CD8E /* PBXTargetDependency */,
+			);
+			name = "Pods-Medical-MedicalTests";
+			productName = "Pods-Medical-MedicalTests";
+			productReference = 232107164BA8AFDF71395DFE7822189A /* Pods_Medical_MedicalTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -199,10 +487,14 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 4A8B9E368D699D66E96B4B9C43006075 /* Products */;
+			productRefGroup = 895451D75E9D5035F4D8E0D39A5E9C6B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				D2A4ADBF04FD650F0BCEA8AB04E43B80 /* Pods-Education */,
+				677D3382FC62AB7419126938DD81A0E0 /* Pods-Education-EducationTests */,
+				308342EF6AD8BAD18F9781A4929C4201 /* Pods-Medical */,
+				F58865CF96C8E2FB5D763344909DFBD0 /* Pods-Medical-MedicalTests */,
 				9F55DB9A55BFC49263518F9108077E37 /* Pods-SwiftGen-Example */,
 				1E798429DCFA7906F6625CCFC1088744 /* SwiftGen */,
 			);
@@ -217,9 +509,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		46E71C5E59C0D0C247F8879C0355573B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A47E603D98C1EDFA266050FBCA424175 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD8C631A83D5BEB16BA794C1E6320BF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6A13AC2F4DD19A3A5EBD422DC75895F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		15C3A9457057942A6E134B865104D71F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8764C70011BEAD05C69836983AA7440D /* Pods-Education-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1CB0F72116402069F185D4151FA1D643 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -228,25 +556,147 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5566DDD28BD4603BC93443F633C069D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6404EC4871F0C6668F6AAA59A2D57A8 /* Pods-Medical-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E382D34851D42E86BAA4E709A1DB478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5ED3924C71BAD5350E3ABE2F3F4D34 /* Pods-Education-EducationTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5A3261D88BC377DC84BA87C5405ECE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C2BEB249A16BCEB56142980F01EF38 /* Pods-Medical-MedicalTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		64D4BB56E9E80A1A767954E5A1E1AFE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftGen;
+			target = 1E798429DCFA7906F6625CCFC1088744 /* SwiftGen */;
+			targetProxy = BE377BB4AC089DD86FFEEBC7B594B794 /* PBXContainerItemProxy */;
+		};
+		6FD4B3CFBEB50A89557C1161B515CD8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftGen;
+			target = 1E798429DCFA7906F6625CCFC1088744 /* SwiftGen */;
+			targetProxy = A0C194BC96D06FFCCB9858D3D8E9BFF9 /* PBXContainerItemProxy */;
+		};
+		A6E67E83741F99CCC172A9AC5644EA28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftGen;
+			target = 1E798429DCFA7906F6625CCFC1088744 /* SwiftGen */;
+			targetProxy = 41A263438B8633DD920B63A4469297B6 /* PBXContainerItemProxy */;
+		};
 		C74FABBD20DD19AFB6713E19F3169FC6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftGen;
 			target = 1E798429DCFA7906F6625CCFC1088744 /* SwiftGen */;
 			targetProxy = 2AE14053F99AFEB8D30567DF7530413C /* PBXContainerItemProxy */;
 		};
+		F6875B58C793EA96E4E5E8BF40A5EC2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftGen;
+			target = 1E798429DCFA7906F6625CCFC1088744 /* SwiftGen */;
+			targetProxy = B42987A6C48AC8B1C1A5FDA9C2EF9AB1 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0651FE1C40285575F246D9382BE4BDD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC942151D1852A1CEEDEAF90730A693D /* Pods-Medical-MedicalTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Medical-MedicalTests/Pods-Medical-MedicalTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Medical-MedicalTests/Pods-Medical-MedicalTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		20BF7B24D3A4FA86232C1FD5EEE05F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E5DDD10406457CCD7ADEC4F2D5B2401 /* Pods-Education.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Education/Pods-Education-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Education/Pods-Education.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		2202230BF25CAB2FDC609A71D79055BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FD691AE7128F940D3B179941FCEC2F54 /* SwiftGen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,6 +772,119 @@
 			};
 			name = Debug;
 		};
+		5991760E54468DC20125B926708AE5F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B6BBBCFFB7F969D49D9518F8C44CABB /* Pods-Education.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Education/Pods-Education-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Education/Pods-Education.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		66D67C27A638A64D3A4C4D590CA1E23D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DFDA47837BE82B657276B78DB5C9A4F /* Pods-Education-EducationTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Education-EducationTests/Pods-Education-EducationTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Education-EducationTests/Pods-Education-EducationTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7318943E5E0FE4915B1D0BB1F1B3909A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53568FCD59EFE15AD2D320DB025A74F0 /* Pods-Medical.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Medical/Pods-Medical-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Medical/Pods-Medical.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -386,7 +949,7 @@
 		};
 		AB36D09D00533F0BB39B3E4ACE2DE480 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 326F8107EE51910C1365E288347E9638 /* Pods-SwiftGen-Example.debug.xcconfig */;
+			baseConfigurationReference = 32E119C96125E6777D11D469EE9454FC /* Pods-SwiftGen-Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -421,13 +984,89 @@
 			};
 			name = Debug;
 		};
+		C713AF06B28921455C47C7B32A5B1407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6012B6707003E22C83E01E47F86738F8 /* Pods-Medical-MedicalTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Medical-MedicalTests/Pods-Medical-MedicalTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Medical-MedicalTests/Pods-Medical-MedicalTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CC1B29EB984A00E638D9BAD883E86581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFAE3C191E720CB17765F828A27B809B /* Pods-Medical.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Medical/Pods-Medical-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Medical/Pods-Medical.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		CF3B4AB84D0F77E437676BAFB9C2086C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B4263489E673801EC37C1F15D4E531D8 /* SwiftGen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -438,9 +1077,46 @@
 			};
 			name = Release;
 		};
+		DEC66FA26290C5ECA1CD65547469A6D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EFFA8157B5003972799FD699D156C9E /* Pods-Education-EducationTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Education-EducationTests/Pods-Education-EducationTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Education-EducationTests/Pods-Education-EducationTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		E17D9508484FCE71946366B9AD9B18B4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E33282DFCC543987B94C624E188FCFB /* Pods-SwiftGen-Example.release.xcconfig */;
+			baseConfigurationReference = F19262F086A83B37799E723068E15A61 /* Pods-SwiftGen-Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -479,6 +1155,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		03B573C2DD6EB70273BA1DA809901492 /* Build configuration list for PBXNativeTarget "Pods-Medical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7318943E5E0FE4915B1D0BB1F1B3909A /* Debug */,
+				CC1B29EB984A00E638D9BAD883E86581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -488,11 +1173,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		538748AC666B5CEFFD61D342A33D04FA /* Build configuration list for PBXNativeTarget "Pods-Education-EducationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEC66FA26290C5ECA1CD65547469A6D6 /* Debug */,
+				66D67C27A638A64D3A4C4D590CA1E23D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A02174BF4B03EC4F716754062E53B014 /* Build configuration list for PBXNativeTarget "Pods-SwiftGen-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB36D09D00533F0BB39B3E4ACE2DE480 /* Debug */,
 				E17D9508484FCE71946366B9AD9B18B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D647880B4652645BCE46628BF31223CF /* Build configuration list for PBXNativeTarget "Pods-Education" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20BF7B24D3A4FA86232C1FD5EEE05F55 /* Debug */,
+				5991760E54468DC20125B926708AE5F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED3E7EA03822E8A4F7CEF1BB9EF202A8 /* Build configuration list for PBXNativeTarget "Pods-Medical-MedicalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0651FE1C40285575F246D9382BE4BDD4 /* Debug */,
+				C713AF06B28921455C47C7B32A5B1407 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

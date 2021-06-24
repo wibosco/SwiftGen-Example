@@ -22,5 +22,15 @@ platform :ios do
       scheme: "SwiftGen-Example",
       build_for_testing: true
     )
+    scan(
+      workspace: "SwiftGen-Example.xcworkspace",
+      scheme: "Medical",
+      build_for_testing: true
+    )
+    scan(
+      workspace: "SwiftGen-Example.xcworkspace",
+      scheme: "Education",
+      build_for_testing: true
+    )
   end
 end
