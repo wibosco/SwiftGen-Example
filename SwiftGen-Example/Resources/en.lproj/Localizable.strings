@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  SwiftGen-Example
+
+  Created by William Boles on 24/06/2021.
+  
+*/
+
+"Tab.item.circus" = "Circus";
+
+"Circus.title" = "Circus";
+"Circus.description" = "Below is a selection of circus icons:";
