@@ -16,12 +16,12 @@ class CircusViewController: UIViewController {
     let icons: [UIImage?] = {
         var icons = [UIImage?]()
         
-        icons.append(UIImage(named: "acrobatic bike"))
-        icons.append(UIImage(named: "balloon dog"))
-        icons.append(UIImage(named: "gum machine"))
-        icons.append(UIImage(named: "monkey"))
-        icons.append(UIImage(named: "ticket"))
-        icons.append(UIImage(named: "magic box"))
+        icons.append(Assets.acrobaticBike.image)
+        icons.append(Assets.balloonDog.image)
+        icons.append(Assets.gumMachine.image)
+        icons.append(Assets.monkey.image)
+        icons.append(Assets.ticket.image)
+        icons.append(Assets.magicBox.image)
         
         return icons
     }()
@@ -31,8 +31,8 @@ class CircusViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        labelTitle.text = NSLocalizedString("Circus.title", comment: "")
-        labelDescription.text = NSLocalizedString("Circus.description", comment: "")
+        labelTitle.text = Strings.Circus.title
+        labelDescription.text = Strings.Circus.description
         
         tableView.rowHeight = 120
         tableView.register(UINib(nibName: "CircusTableViewCell", bundle: .main), forCellReuseIdentifier: "CircusTableViewCell")

@@ -1,0 +1,62 @@
+ strings:
+   - inputs: SwiftGen-Example/Resources/en.lproj
+     outputs:
+       - templateName: structured-swift5
+         output: SwiftGen-Example/SupportingFiles/SwiftGen/Strings+SwiftGen.swift
+         params:
+           enumName: Strings
+   - inputs: Modules/Education/Education/Resources/en.lproj
+     outputs:
+       - templateName: structured-swift5
+         output: Modules/Education/Education/SupportingFiles/SwiftGen/Strings+SwiftGen.swift
+         params:
+           enumName: Strings
+   - inputs: Modules/Medical/Medical/Resources/en.lproj
+     outputs:
+       - templateName: structured-swift5
+         output: Modules/Medical/Medical/SupportingFiles/SwiftGen/Strings+SwiftGen.swift
+         params:
+           enumName: Strings
+
+ xcassets:
+   - inputs: SwiftGen-Example/Resources/Assets.xcassets
+     outputs:
+       - templateName: swift5
+         output: SwiftGen-Example/SupportingFiles/SwiftGen/SXCAssets+SwiftGen.swift
+         params:
+           enumName: Assets
+   - inputs: Modules/Education/Education/Resources/Assets.xcassets
+     outputs:
+       - templateName: swift5
+         output: Modules/Education/Education/SupportingFiles/SwiftGen/SXCAssets+SwiftGen.swift
+         params:
+           enumName: Assets
+   - inputs: Modules/Medical/Medical/Resources/Assets.xcassets
+     outputs:
+       - templateName: swift5
+         output: Modules/Medical/Medical/SupportingFiles/SwiftGen/SXCAssets+SwiftGen.swift
+         params:
+           enumName: Assets
+
+ ib:
+   - inputs: SwiftGen-Example/
+     outputs:
+       - templateName: scenes-swift5
+         output: SwiftGen-Example/SupportingFiles/SwiftGen/IB-Scenes+SwiftGen.swift
+         params:
+           enumName: Storyboards
+           ignoreTargetModule: true
+   - inputs: Modules/Education
+     outputs:
+       - templateName: scenes-swift5
+         output: Modules/Education/Education/SupportingFiles/SwiftGen/IB-Scenes+SwiftGen.swift
+         params:
+           enumName: Storyboards
+           ignoreTargetModule: true
+   - inputs: Modules/Medical
+     outputs:
+       - templateName: scenes-swift5
+         output: Modules/Medical/Medical/SupportingFiles/SwiftGen/IB-Scenes+SwiftGen.swift
+         params:
+           enumName: Storyboards
+           ignoreTargetModule: true

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D1D50E82686345E00B4F94E /* IB-Scenes+SwiftGen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1D50E62686345E00B4F94E /* IB-Scenes+SwiftGen.swift */; };
+		3D1D50E92686345E00B4F94E /* SXCAssets+SwiftGen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1D50E72686345E00B4F94E /* SXCAssets+SwiftGen.swift */; };
+		3D1D510726866D8000B4F94E /* Strings+SwiftGen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1D510626866D8000B4F94E /* Strings+SwiftGen.swift */; };
 		3D390FD2268522CC007CDE44 /* Education.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D390FD0268522CC007CDE44 /* Education.framework */; };
 		3D390FD3268522CC007CDE44 /* Education.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D390FD0268522CC007CDE44 /* Education.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3D390FD4268522CC007CDE44 /* Medical.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D390FD1268522CC007CDE44 /* Medical.framework */; };
@@ -60,6 +63,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3D1D50E62686345E00B4F94E /* IB-Scenes+SwiftGen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IB-Scenes+SwiftGen.swift"; sourceTree = "<group>"; };
+		3D1D50E72686345E00B4F94E /* SXCAssets+SwiftGen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SXCAssets+SwiftGen.swift"; sourceTree = "<group>"; };
+		3D1D510626866D8000B4F94E /* Strings+SwiftGen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Strings+SwiftGen.swift"; sourceTree = "<group>"; };
 		3D390FD0268522CC007CDE44 /* Education.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Education.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D390FD1268522CC007CDE44 /* Medical.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Medical.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D8D42BD268517180024B533 /* SwiftGen-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftGen-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,6 +120,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D1D50E52686345E00B4F94E /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+				3D1D510626866D8000B4F94E /* Strings+SwiftGen.swift */,
+				3D1D50E62686345E00B4F94E /* IB-Scenes+SwiftGen.swift */,
+				3D1D50E72686345E00B4F94E /* SXCAssets+SwiftGen.swift */,
+			);
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
 		3D8D42B4268517180024B533 = {
 			isa = PBXGroup;
 			children = (
@@ -139,9 +155,9 @@
 		3D8D42BF268517180024B533 /* SwiftGen-Example */ = {
 			isa = PBXGroup;
 			children = (
-				3DBD39D126851BC9006411BA /* Navigation */,
 				3D8D4304268517CA0024B533 /* Application */,
 				3D8D4300268517CA0024B533 /* Features */,
+				3DBD39D126851BC9006411BA /* Navigation */,
 				3D8D4302268517CA0024B533 /* Resources */,
 				3D8D42F9268517CA0024B533 /* Storyboards */,
 				3D8D42FE268517CA0024B533 /* SupportingFiles */,
@@ -179,6 +195,7 @@
 		3D8D42FE268517CA0024B533 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				3D1D50E52686345E00B4F94E /* SwiftGen */,
 				3D8D42FF268517CA0024B533 /* Info.plist */,
 			);
 			path = SupportingFiles;
@@ -248,6 +265,7 @@
 			buildConfigurationList = 3D8D42E72685172F0024B533 /* Build configuration list for PBXNativeTarget "SwiftGen-Example" */;
 			buildPhases = (
 				7D9ACD0E36D3FB243DFDD12D /* [CP] Check Pods Manifest.lock */,
+				3DA98EF22686278B00896FAC /* Run SwiftGen */,
 				3D8D42B9268517180024B533 /* Sources */,
 				3D8D42BA268517180024B533 /* Frameworks */,
 				3D8D42BB268517180024B533 /* Resources */,
@@ -370,6 +388,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3DA98EF22686278B00896FAC /* Run SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftGen";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/SwiftGen/bin/swiftgen\"\n";
+		};
 		7D9ACD0E36D3FB243DFDD12D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -400,10 +436,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DBD39D426851BC9006411BA /* AppTabBarControllerViewController.swift in Sources */,
+				3D1D510726866D8000B4F94E /* Strings+SwiftGen.swift in Sources */,
 				3DBD39CB26851BB6006411BA /* CircusTableViewCell.swift in Sources */,
 				3DBD39D526851BC9006411BA /* Coordinator.swift in Sources */,
+				3D1D50E82686345E00B4F94E /* IB-Scenes+SwiftGen.swift in Sources */,
 				3DBD39CC26851BB6006411BA /* CircusViewController.swift in Sources */,
 				3D8D430C268517CA0024B533 /* AppDelegate.swift in Sources */,
+				3D1D50E92686345E00B4F94E /* SXCAssets+SwiftGen.swift in Sources */,
 				3D8D430D268517CA0024B533 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -599,7 +638,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.williamboles.SwiftGen-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -619,7 +658,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.williamboles.SwiftGen-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

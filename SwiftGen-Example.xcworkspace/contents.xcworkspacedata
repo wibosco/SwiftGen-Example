@@ -2,15 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:SwiftGen-Example/Modules/Medical/Medical.xcodeproj">
+      location = "group:Modules/Medical/Medical.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Modules/Education/Education.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:SwiftGen-Example.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:SwiftGen-Example/Modules/Education/Education.xcodeproj">
    </FileRef>
 </Workspace>
